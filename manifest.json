@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Hungry Chrome",
+  "version": "1",
+  "description": "Wondering why your browsing experience got interrupted? Now you can monitor Chrome's CPU and memory usage, identify and kill expensive processes",
+  "permissions": [
+    "processes",
+    "tabs"
+  ],
+  "browser_action": {
+      "default_title": "Hungry Chrome",
+      "default_popup": "popup.html"
+  },
+  "background": {
+    "page" : "background.html"
+  }
+}
